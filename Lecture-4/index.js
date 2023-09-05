@@ -10,7 +10,7 @@ let index = 0;
 let name = names[index];
 console.log(name)
 
-setInterval(() => {
+setInterval(() => {  // zotokhon na loop stop korbo na toto khon cholte takbe
     name = names[index++];
     console.log(name, name.length)
 

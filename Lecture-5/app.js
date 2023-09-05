@@ -1,5 +1,5 @@
 const numbers = [1, 2, 4, 7, 9, 13, 45, 37];
-// // sob element start teke end pozonto zao ai ta ke travers bolle
+// // sob element start teke end pozonto zai ai ta ke travers bolle
 // let sum = 0;
 // for (let i = 0; i < numbers.length; i++) {
 //     sum += numbers[i];
@@ -20,6 +20,7 @@ const numbers = [1, 2, 4, 7, 9, 13, 45, 37];
 //     console.log('hello')
 // }
 // numbers.forEach(item => cb(console.log(item)))
+
 // // no.4
 // const cb2 = () => {
 //     console.log('hello')

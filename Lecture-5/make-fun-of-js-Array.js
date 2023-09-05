@@ -2,6 +2,8 @@
 // ai ways memory zaiga kom lage . and apps kaz hang kom kore tai amra optimization korbo
 //
 /* 
+
+//========ai code ti vhul ache , kintu kaz korbe============//
 const arr = [1, 2, 3, null, false, null, 'tttt', 4, 5, '', 'text', 6, 7];
 let count = 0;
 for (let i = 0; i < arr.length; i++) {
@@ -22,12 +24,32 @@ for (let i = 0; i < arr.length; i++) {
 arr.length -= count;
 console.log(arr)
  */
+
+//========upore code ti vhul ache , neche code te tik ache============//
+//===============nested loops==============
+/* const arr = [1, 2, 3, null, false, null, 'tttt', 4, 5, '', 'text', 6, 7];
+let count = 0;
+
+for (let i = 0; i < arr.length; i++) {
+    console.log('i', arr[i])
+    for (let j = 0; j < arr.length - 1 - i; j++) {
+        console.log('j', arr[j])
+        if (!arr[j] || typeof arr[j] !== 'number') {
+            arr.splice(j, 1);
+            count++;
+        }
+    }
+}
+console.log(arr); */
+
+
 //##################
 
 // way no.2
 // ai vabe korle exter memory besi lage . and mobile hang kore besi
 const arr2 = [1, 2, 3, null, false, 4, 5, '', 'text', 6, 7];
 
+// arr.filter take ai ta ke mathod boel(find,splice,forEach) ect method bole
 const filterArray2 = arr2.filter((v) => typeof v === 'string') //filter typeof dea number, string,boolen,null etc dete pari
 // console.log(filterArray2)
 const arrto = arr2.filter(function (v) {

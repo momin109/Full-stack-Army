@@ -33,7 +33,7 @@ const objectArray = [
     { id: 4, value: 40, product: 'computer', price: 40500 },
     { id: 5, value: 50, product: 'iphone', price: 45700 },
 ]
-//finde mathod mutable and filter method immutable
+//find mathod mutable and filter method immutable
 const object = objectArray.find(function (v) {  // finde mathod mutable
     return v.id === 3; // akhane [objectArray id number 3]
 })
